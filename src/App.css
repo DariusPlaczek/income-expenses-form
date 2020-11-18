@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: Rajdhani, serif;
+	display: flex;
+	flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.budget-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.budget-book-title {
+  width: 402px;
+  padding: 10px;
+  background-color: #ccc;
+  text-transform: uppercase;
+}
+
+.budget-book-container {
+  margin: 10px;
+}
+
+.budget-book-total {
+  color: white;
+}
+
+.budget-list-container {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  background-color: #eee;
+  padding: 10px; 
+}
+
+.budget-list-name {
+  width: 150px;
+}
+
+.budget-list-categories {
+  width: 150px;
+}
+
+.budget-list-sum {
+  text-align: right;
+  width: 100px;
+}
+
+.budget-book-sum {
+  padding: 10px;
+  text-align: right;
+  width: 402px;
+  background-color: #ccc;
+}
+
+.budget-book-total {
+  padding: 10px;
+  text-align: right;
+  width: 844px;
+}
+
+.budget-form-container, form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, button, textarea {
+	padding: 12px 20px;
+	margin: 8px 5px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+textarea {
+  height: 250px;
+}
+
+::placeholder {
+	color: black;
+}
+
+.warning-border {
+  border: 3px red solid;
+}
+
+.budget-list-remove {
+  padding: 0 5px;
+  cursor: pointer;
+}
